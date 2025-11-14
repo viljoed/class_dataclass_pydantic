@@ -10,6 +10,7 @@
 | Error Messages           | ❌             | ❌                              | ✅                   |
 | Standard Library      | ✅            | ✅            | ❌ (pip install) |
 
+Review and run *_demo.py files.
 
 ## Generate Pydantic Model from water_stn.json
 ```bash
