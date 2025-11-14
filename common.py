@@ -1,4 +1,6 @@
-def run(cls):
+"""Examples that will be run by *_demo.py for 
+Python class, @dataclass, pydantic.models.BaseModel"""
+def run(cls:type):
     longitude, latitude = -75.7552, 45.3484
     pnt = cls(longitude=longitude, latitude=latitude)
     print(pnt)

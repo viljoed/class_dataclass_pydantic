@@ -1,3 +1,6 @@
+"""water_stn.json created by saving response from this URL:
+https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI_FGP_All_Layers/MapServer/6
+"""
 import json
 from pathlib import Path
 from esri_fc import Model, Feature
