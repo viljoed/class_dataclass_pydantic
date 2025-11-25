@@ -14,9 +14,11 @@ Review and run *_demo.py files.
 
 ## Generate Pydantic Model from water_stn.json
 ```bash
+uv pip install datamodel-code-generator
 datamodel-codegen --input water_stn.json --input-file-type json --output esri_fc.py
 ```
 
 esri_fc_demo.py uses esri_fc.Model to parse water_stn.json into Pydantic objects and shows the first feature's name and coords.
 
 Copy contents of esri_fc.py into ChatGPT to convert to Mermaid code.  Save as esri_fc.md.
+

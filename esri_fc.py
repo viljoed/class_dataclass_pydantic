@@ -3,7 +3,7 @@
 #   timestamp: 2025-11-14T04:22:10+00:00
 # datamodel-codegen --input water_stn.json --input-file-type json --output esri_fc.py
 
-from __future__ import annotations
+from __future__ import annotations  # Support Python <3.11
 from typing import List, Optional
 from pydantic import BaseModel
 
